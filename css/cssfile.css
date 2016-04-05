@@ -48,10 +48,15 @@ nav{
   width: 25px;
 }
 
+.nav_lag{
+  display: none;
+}
+
 .big_pic{
   min-width: 100%;
   width: auto;
   height: auto;
+
   float:left;
   margin: 0px auto;
   position: relative;
@@ -104,6 +109,10 @@ nav{
   float:left
 }
 
+.small_pic_div:hover .pic_div{
+  display: block;
+}
+
 .small_pic{
   width:395px;
   height:190px;
@@ -117,8 +126,9 @@ nav{
   height: auto;
   position: absolute;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.65;
   clear:inherit;
+  display: none;
 }
 
 #headr{

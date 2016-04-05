@@ -3,6 +3,8 @@
   <header>
     <title>Thailand</title>
     <link rel="stylesheet" href="css/cssfile.css">
+    <script src="js/jquery.js"></script>
+  	<script src="js/web.js"></script>
   </header>
 
   <body>
@@ -10,31 +12,47 @@
 
         <nav>
           <div>
-            <p class="p_nav">Home</p>
+            <a href="#">
+              <p class="p_nav">Home</p>
+            </a>
           </div>
           <div>
-            <p class="p_nav">Foods&Drinks</p>
+            <a href="#">
+              <p class="p_nav">Foods&Drinks</p>
+            </a>
           </div>
           <div>
-            <p class="p_nav">Desserts</p>
+            <a href="#">
+              <p class="p_nav">Desserts</p>
+            </a>
           </div>
           <div>
-            <p class="p_nav">Travel</p>
+            <a href="#">
+              <p class="p_nav">Travel</p>
+            </a>
           </div>
           <div>
-            <p class="p_nav">Activities</p>
+            <a href="#">
+              <p class="p_nav">Activities</p>
+            </a>
           </div>
           <div>
-            <p class="p_nav">History&Culture</p>
+            <a href="#">
+              <p class="p_nav">History&Culture</p>
+            </a>
           </div>
           <div>
-            <p class="p_nav">Festivals</p>
+            <a href="#">
+              <p class="p_nav">Festivals</p>
+            </a>
           </div>
         </nav>
 
         <div class="language">
           <p style="margin:0px auto;">EN</p>
-          <img class="lag_arrow" src="image/arrow_down.png"/>
+          <a href>
+          <img class="lag_arrow" onclick="toggle_visibility('nav_lang')" src="image/arrow_down.png"/>
+          </a>
         </div>
 
         <div style="position: relative;">
@@ -50,60 +68,71 @@
           </div>
 
           <div class="spic_div">
-
+            <a href="#">
             <div class="small_pic_div">
               <img class="small_pic" src="image/f&d.png"/>
               <div  class="pic_div">
                 <p id="headr">Foods & Drinks</p>
-                <hr style="margin:0px auto;">
+                <hr class="hr">
                 <p id="infor">What to eat and drink</p>
               </div>
             </div>
+          </a>
 
+          <a href="#">
             <div class="small_pic_div">
               <img class="small_pic" src="image/desserts.png"/>
               <div class="pic_div">
                 <p id="headr">Desserts</p>
-                <hr style="margin:0px auto;">
+                <hr class="hr">
                 <p id="infor">Original Thai desserts</p>
               </div>
             </div>
+          </a>
 
+          <a href="#">
             <div class="small_pic_div">
               <img class="small_pic" src="image/travels.png"/>
               <div class="pic_div">
                 <p id="headr">Tralvels</p>
-                <hr style="margin:0px auto;">
+                <hr class="hr">
                 <p id="infor">Place to visit</p>
               </div>
             </div>
+          </a>
 
+          <a href="#">
             <div class="small_pic_div">
               <img class="small_pic" src="image/activities.png"/>
               <div class="pic_div">
                 <p id="headr">Activities</p>
-                <hr style="margin:0px auto;">
+                <hr class="hr">
                 <p id="infor">Amazing adventures</p>
               </div>
             </div>
+          </a>
 
+          <a href="#">
             <div class="small_pic_div">
               <img class="small_pic" src="image/h&c.png"/>
               <div class="pic_div">
                 <p id="headr">History & Culture</p>
-                <hr style="margin:0px auto;">
+                <hr class="hr">
                 <p id="infor">Unseen in Thailand</p>
               </div>
             </div>
+          </a>
 
+          <a href="#">
             <div class="small_pic_div">
               <img class="small_pic" src="image/festivals.png"/>
               <div class="pic_div">
                 <p id="headr">Festivals</p>
-                <hr style="margin:0px auto;">
+                <hr class="hr">
                 <p id="infor">Fun times!</p>
               </div>
             </div>
+          </a>
 
           </div>
         </article>
@@ -122,13 +151,27 @@
           <div class="share">
             <h2 class="head">Share Your Moment</h2>
             <div>
+              <a href="#">
               <img class="social_pic" src="image/tumblr.png"/>
+              </a>
+              <a href="#">
               <img class="social_pic" src="image/linkedin.png"/>
+            </a>
+              <a href="#">
               <img class="social_pic" src="image/facebook.png"/>
+            </a>
+              <a href="#">
               <img class="social_pic" src="image/twitter.png"/>
+            </a>
+              <a href="#">
               <img class="social_pic" src="image/instagram.png"/>
+            </a>
+            <a href="#">
               <img class="social_pic" src="image/google.png"/>
+            </a>
+            <a href="#">
               <img class="social_pic" src="image/pinterest.png"/>
+            </a>
             </div>
           </div>
         </article>
